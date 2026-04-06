@@ -1,0 +1,26 @@
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(182, 129, 110);
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.nav-link {
+    font-family: "Homer Simpson UI";
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-logo {
+    color: yellowgreen;
+    
+}
+
+.link {
+    color: rgb(115, 31, 146);
+}

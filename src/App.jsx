@@ -7,15 +7,17 @@ import Boton from './components/Boton'
 import { BrowserRouter, Route, Router, Routes } from 'react-router'
 import Dashboard from './pages/Dashboard'
 import Contact from './pages/Contact'
+import Nabvar from './components/Nabvar'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
+        <Nabvar />
         <Routes>
-          <Route path='/' element={<Dashboard/>}/>
-          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
